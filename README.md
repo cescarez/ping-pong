@@ -29,8 +29,6 @@ A webpage that will display a list of numbers starting with a user input number 
 | Program displays created sequence of numbers and words | _Input:_ "5" | _Displayed Output:_ "1, 2, ping, 4, pong"|
 | The above steps are executed anew each time the submit button is pressed | _Displayed Output:_ "1, 2, ping, 4, pong" ; _New Input:_ "3" |  _Displayed Output:_ "1, 2, ping"|
 
-| Program multiplies together all numbers in previous count | _Input:_ "5" | _Output:_ "5 * 4 * 3 * 2 * 1"|
-| Program displays calculated factorial | _Input:_ "5" | Displayed _Output:_ "5! = 20"|
 
 ## Known Bugs
 
