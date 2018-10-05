@@ -3,9 +3,9 @@ inputArray = [];
 $(document).ready(function(){
   $('form').submit(function(event){
     event.preventDefault();
+    $("#output").removeClass();
+    $("#number-input").removeClass();
     inputArray.length = 0;
-    $("#output").removeClass;
-    $("#number-input").removeClass;
     var inputNum = parseInt($("input").val());
 
     if (inputNum <= 0 || $("input").val() ==="") {
