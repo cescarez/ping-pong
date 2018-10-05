@@ -56,18 +56,3 @@ body {
   text-align: right;
   padding: 25px;
 }
-
-/* #icon {
-  grid-column: 5 / 6;
-  grid-row: 1;
-  margin: 5px;
-  background: black;
-  color: white;
-  font-size: 3em;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 10px;
-} */
