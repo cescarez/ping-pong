@@ -24,7 +24,7 @@ $(document).ready(function(){
           inputArray[i] = "ping-pong";
         }
       }
-      $("#output").text("Your sequence is as follows: " + inputArray.join());
+      $("#output").text("Your sequence is as follows: " + inputArray.join(", "));
     }
   });
 });
