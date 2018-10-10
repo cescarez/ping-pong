@@ -2,12 +2,12 @@ inputArray = [];
 
 var checkNumber =  function (number) {
   for (i = 1; i <= number; i++) {
-    if (inputArray[i] % 3 === 0) {
-      inputArray[i] = "ping";
+    if (inputArray[i] % 15 === 0) {
+      inputArray[i] = "ping-pong";
     } else if (inputArray[i] % 5 === 0) {
       inputArray[i] = "pong";
-    } else if (inputArray[i] % 15 === 0) {
-      inputArray[i] = "ping-pong";
+    } else if (inputArray[i] % 3 === 0) {
+    inputArray[i] = "ping";
     }
   }
 }
